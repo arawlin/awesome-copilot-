@@ -3,6 +3,7 @@
 Curated plugins of related agents and skills organized around specific themes, workflows, or use cases. Plugins can be installed directly via GitHub Copilot CLI or VS Code.
 
 > **Awesome Copilot is a default plugin marketplace** — no setup required in either Copilot CLI or VS Code.
+>
 ### How to Contribute
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-plugins) for guidelines on how to contribute new plugins, improve existing ones, and share your use cases.
@@ -10,16 +11,19 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-plugins) for guidelines on how t
 ### How to Use Plugins
 
 **Browse Plugins:**
+
 - ⭐ Featured plugins are highlighted and appear at the top of the list
 - Explore themed plugins that group related customizations
 - Each plugin includes agents and skills for specific workflows
 - Plugins make it easy to adopt comprehensive toolkits for particular scenarios
 
 **Find & Install in Copilot CLI:**
+
 - Browse the marketplace from within an interactive Copilot session: \`/plugin marketplace browse awesome-copilot\`
 - Install a plugin: \`copilot plugin install <plugin-name>@awesome-copilot\`
 
 **Find & Install in VS Code:**
+
 - Open the Extensions search view and type \`@agentPlugins\` to browse available plugins
 - Or open the Command Palette and run \`Chat: Plugins\`
 
@@ -35,13 +39,14 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-plugins) for guidelines on how t
 | [csharp-dotnet-development](../plugins/csharp-dotnet-development/README.md) | Essential prompts, instructions, and chat modes for C# and .NET development including testing, documentation, and best practices. | 9 items | csharp, dotnet, aspnet, testing |
 | [csharp-mcp-development](../plugins/csharp-mcp-development/README.md) | Complete toolkit for building Model Context Protocol (MCP) servers in C# using the official SDK. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. | 2 items | csharp, mcp, model-context-protocol, dotnet, server-development |
 | [database-data-management](../plugins/database-data-management/README.md) | Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and general database development best practices. | 5 items | database, sql, postgresql, sql-server, dba, optimization, queries, data-management |
-| [dataverse](../plugins/dataverse/README.md) | Comprehensive collection for Microsoft Dataverse integrations. Includes MCP setup commands. | 1 items | dataverse, mcp |
 | [dataverse-sdk-for-python](../plugins/dataverse-sdk-for-python/README.md) | Comprehensive collection for building production-ready Python integrations with Microsoft Dataverse. Includes official documentation, best practices, advanced features, file operations, and code generation prompts. | 4 items | dataverse, python, integration, sdk |
 | [devops-oncall](../plugins/devops-oncall/README.md) | A focused set of prompts, instructions, and a chat mode to help triage incidents and respond quickly with DevOps tools and Azure resources. | 3 items | devops, incident-response, oncall, azure |
+| [doublecheck](../plugins/doublecheck/README.md) | Three-layer verification pipeline for AI output. Extracts claims, finds sources, and flags hallucination risks so humans can verify before acting. | 2 items | verification, hallucination, fact-check, source-citation, trust, safety |
 | [edge-ai-tasks](../plugins/edge-ai-tasks/README.md) | Task Researcher and Task Planner for intermediate to expert users and large codebases - Brought to you by microsoft/edge-ai | 1 items | architecture, planning, research, tasks, implementation |
+| [fastah-ip-geo-tools](../plugins/fastah-ip-geo-tools/README.md) | This plugin is for network operations engineers who wish to tune and publish IP geolocation feeds in RFC 8805 format. It consists of an AI Skill and an associated MCP server that geocodes geolocation place names to real cities for accuracy. | 1 items | geofeed, ip-geolocation, rfc-8805, rfc-9632, network-operations, isp, cloud, hosting, ixp |
 | [flowstudio-power-automate](../plugins/flowstudio-power-automate/README.md) | Complete toolkit for managing Power Automate cloud flows via the FlowStudio MCP server. Includes skills for connecting to the MCP server, debugging failed flow runs, and building/deploying flows from natural language. | 3 items | power-automate, power-platform, flowstudio, mcp, model-context-protocol, cloud-flows, workflow-automation |
 | [frontend-web-dev](../plugins/frontend-web-dev/README.md) | Essential prompts, instructions, and chat modes for modern frontend web development including React, Angular, Vue, TypeScript, and CSS frameworks. | 3 items | frontend, web, react, typescript, javascript, css, html, angular, vue |
-| [gem-team](../plugins/gem-team/README.md) | A modular multi-agent team for complex project execution with DAG-based planning, parallel execution, TDD verification, and automated testing with energetic team lead. | 1 items | multi-agent, orchestration, dag-planning, parallel-execution, tdd, verification, automation, security, prd |
+| [gem-team](../plugins/gem-team/README.md) | A modular multi-agent team for complex project execution with Discuss Phase for requirements clarification, PRD creation, DAG-based planning, complexity-aware research, multi-plan selection for critical tasks, wave-based parallel execution, PRD compliance verification, and automated testing. | 1 items | multi-agent, orchestration, discuss-phase, dag-planning, parallel-execution, tdd, verification, automation, security, prd |
 | [go-mcp-development](../plugins/go-mcp-development/README.md) | Complete toolkit for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. | 2 items | go, golang, mcp, model-context-protocol, server-development, sdk |
 | [java-development](../plugins/java-development/README.md) | Comprehensive collection of prompts and instructions for Java development including Spring Boot, Quarkus, testing, documentation, and best practices. | 4 items | java, springboot, quarkus, jpa, junit, javadoc |
 | [java-mcp-development](../plugins/java-mcp-development/README.md) | Complete toolkit for building Model Context Protocol servers in Java using the official MCP Java SDK with reactive streams and Spring Boot integration. | 2 items | java, mcp, model-context-protocol, server-development, sdk, reactive-streams, spring-boot, reactor |
@@ -65,6 +70,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-plugins) for guidelines on how t
 | [power-platform-mcp-connector-development](../plugins/power-platform-mcp-connector-development/README.md) | Complete toolkit for developing Power Platform custom connectors with Model Context Protocol integration for Microsoft Copilot Studio | 3 items | power-platform, mcp, copilot-studio, custom-connector, json-rpc |
 | [project-planning](../plugins/project-planning/README.md) | Tools and guidance for software project planning, feature breakdown, epic management, implementation planning, and task organization for development teams. | 9 items | planning, project-management, epic, feature, implementation, task, architecture, technical-spike |
 | [python-mcp-development](../plugins/python-mcp-development/README.md) | Complete toolkit for building Model Context Protocol (MCP) servers in Python using the official SDK with FastMCP. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. | 2 items | python, mcp, model-context-protocol, fastmcp, server-development |
+| [roundup](../plugins/roundup/README.md) | Self-configuring status briefing generator. Learns your communication style from examples, discovers your data sources, and produces draft updates for any audience on demand. | 2 items | status-updates, briefings, management, productivity, communication, synthesis, roundup, copilot-cli |
 | [ruby-mcp-development](../plugins/ruby-mcp-development/README.md) | Complete toolkit for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration support. | 2 items | ruby, mcp, model-context-protocol, server-development, sdk, rails, gem |
 | [rug-agentic-workflow](../plugins/rug-agentic-workflow/README.md) | Three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and QA subagents. | 1 items | agentic-workflow, orchestration, subagents, software-engineering, qa |
 | [rust-mcp-development](../plugins/rust-mcp-development/README.md) | Build high-performance Model Context Protocol servers in Rust using the official rmcp SDK with async/await, procedural macros, and type-safe implementations. | 2 items | rust, mcp, model-context-protocol, server-development, sdk, tokio, async, macros, rmcp |
